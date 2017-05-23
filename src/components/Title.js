@@ -17,11 +17,11 @@ const Title = ({title, domain, url}) => {
       <span 
         className="title-domain"
       >
-        <Link 
-          to={"https://" + domain}
+        <a 
+          href={"https://" + domain}
         >
           {domain}
-        </Link>
+        </a>
       </span>
     </div>
   )

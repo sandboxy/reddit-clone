@@ -1,6 +1,5 @@
 import React from 'react'
 import TimeAgo from './TimeAgo'
-import VoteArrows from './VoteArrows'
 import Options from './Options'
 
 
