@@ -1,0 +1,148 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #999;
+  background: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.listingItems {
+  display: flex;
+  box-sizing: border-box;
+  width: 800px;
+  height: 110px;
+  padding: 10px 0;
+  box-shadow: 0 1px 0 0 #e6e6e6, 0 2px 0 0 white;
+}
+
+.listingItems-img {
+  width: 10%;
+  height: 80%;
+  align-self: center;
+}
+
+.arrow-group,
+.content-group,
+.options-group {
+  margin: 0 10px;
+}
+
+.title-group {
+  display: flex;
+  align-items: center;
+}
+
+.title-head {
+  font-weight: 400;
+  color: #00f;
+}
+
+.title-url {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #999;
+}
+
+.title-domain {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.content-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.arrow-group {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  align-items: center;
+  align-self: center;
+}
+
+.votes {
+  margin: 2px 0;
+}
+
+.options-group,
+.submitted-group {
+  font-size: 13px;
+}
+
+.options-group {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0;
+  margin-top: 5px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.options-group li:nth-child(1) {
+  color: red;
+}
+
+.submitted-group {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 10px;
+}
+
+.sortOptions {
+  display: flex;
+  flex-direction: flex-start;
+  width: 260px;
+  list-style: none;
+  box-shadow: 0 1px 0 0 #e6e6e6, 0 2px 0 0 black;
+  flex: 0 0 60px;
+  justify-content: space-between;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  box-shadow: 0 1px 0 0 #e6e6e6, 0 2px 0 0 white;
+}
+
+.comment .stats {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.comment-body {
+  padding-bottom: 10px;
+}
